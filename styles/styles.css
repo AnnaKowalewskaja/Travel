@@ -1,0 +1,136 @@
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+@font-face {
+    font-family: "Magra";
+    src: url("../fonts/Magra/Magra-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RedHatTextMedium";
+    src: url("../fonts/Red_Hat_Text/static/RedHatText-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+:root {
+    --main-bg-color: #000000;
+    --main-font-color: #ffffff;
+    --main-font-color-second:#F2785C;
+    --active-color: #0D606F;
+    --main-font: "RedHatTextMedium";
+    --main-font_bold: "Inter700";
+    --title-font: "RedHatTextMedium";
+    --main-animation: all 0.3s ease-in;
+}
+
+
+* {
+    scroll-behavior: smooth;
+
+    line-height: 2;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+
+  
+  * {
+    scroll-behavior: smooth;
+ 
+    line-height: 2;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  
+  body {
+    background-color: var(--main-bg-color);
+  }
+  
+  div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  button {
+    border-radius: 0;
+  }
+
+  ul {
+    list-style-type: none;
+    
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  span,
+  a {
+    color: var(--main-font-color);
+    margin: 0;
+  }
+
+
+  a,
+  p,
+  span,
+  input,
+  button,
+  textarea
+   {
+    font-family: var(--main-font);
+    font-size: 2rem;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 1.6rem;
+  }  
+  
+  a:hover{
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-size: 4rem;
+    color: var(--main-font-color-second);
+   
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--title-font);
+  }
+  
+
+
+.container{
+    max-width: 1200px;
+    width: 83%;
+    margin: 0 auto;
+}
+
+
+.button{
+    color:var(--main-font-color);
+    background-color: var(--active-color);
+    font-style: var(--main-font);
+}
