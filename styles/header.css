@@ -3,11 +3,15 @@
 .preview{
     background-image: url(./../assets/images/bg.png);
     background-attachment: fixed;
-    width: 1440px;
+
     margin: 0 auto;
+    background-size: 100%;
 }
 
-
+.header__background{
+  background-color: rgba(242, 120, 92, 0.7);
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
 
 .hero{
 height:820px ;
@@ -32,30 +36,42 @@ height:820px ;
 
 .header__logo{
     display: flex;
+    align-items: flex-end;
 }
+
+.logo__text{
+font-size: 3.2rem;
+font-family: var(--additional-font);
+}
+
 .menu_logo {
   height: 30px;
   width: 30px;
+  padding-bottom: 21px;
+  margin-left: -2px;
+    padding-right: 4px;
 }
 
 .menu__nav {
   display: flex;
-  width: 41%;
+  width: 826px;
 
-  max-width: 570px;
+  
   align-items: center;
   justify-content: space-between;
 }
 
 .navigation {
   width: 88%;
-  max-width: 500px;
+  
 }
 .navigation__list {
+ 
+  max-width: 527px;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 100%;
   align-items: center;
 }
@@ -105,9 +121,13 @@ height:820px ;
 }
 
 
-.language__button{
-    color: var(--main-font-color);
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    padding: 0;
+
+.header__button{
+  width: 103px;
+  height: 41px;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 1.6rem;
 }

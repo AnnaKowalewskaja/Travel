@@ -1,0 +1,37 @@
+.preview__block{
+    width: 892px;
+    height: 422px;
+    padding-top: 32px;
+}
+
+
+.preview__title{
+    font-family: var(--title-font);
+    font-size: 8rem;
+    letter-spacing: 0.8px;
+    line-height: 96px;
+    margin-bottom: 2.5rem;
+
+}
+
+.preview__subtitle{
+    font-family: var(--title-font_italic);
+    font-weight: bold;
+}
+
+.preview__button{
+    width: 228px;
+    height: 59px;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 2.4rem;
+}
+
+.preview__form{
+    display: flex;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+}

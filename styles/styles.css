@@ -16,6 +16,28 @@
     font-weight: normal;
 }
 
+@font-face {
+  font-family: "RedHatTextBold";
+  src: url("../fonts/Red_Hat_Text/static/RedHatText-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/Aleo/Aleo-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AleoItalic";
+  src: url("../fonts/Aleo/Aleo-BoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
+
+
 
 
 
@@ -25,9 +47,11 @@
     --main-font-color-second:#F2785C;
     --active-color: #0D606F;
     --main-font: "RedHatTextMedium";
-    --main-font_bold: "Inter700";
-    --title-font: "RedHatTextMedium";
+    --main-font_bold: "RedHatTextBold";
+    --title-font: "Aleo";
+    --title-font_italic:"AleoItalic";
     --main-animation: all 0.3s ease-in;
+    --additional-font:"Magra";
 }
 
 
@@ -103,7 +127,7 @@ html {
     font-size: 1.6rem;
   }  
   
-  a:hover{
+  a,button:hover{
     cursor: pointer;
   }
   
@@ -124,7 +148,7 @@ html {
 
 .container{
     max-width: 1200px;
-    width: 83%;
+    width: 84%;
     margin: 0 auto;
 }
 
@@ -133,4 +157,6 @@ html {
     color:var(--main-font-color);
     background-color: var(--active-color);
     font-style: var(--main-font);
+    border-radius: 10px;
+    border:none;
 }

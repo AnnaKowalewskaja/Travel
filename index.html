@@ -10,48 +10,63 @@
 </head>
 <body>
     <header class="header">
+<div class="header__background">
+  <div class="container navbar">
+    <div class="header__menu">
+        <div class="header__logo">
+            <img src="assets/images/logo.svg" alt="logo" class="menu_logo" />
+            <p class="logo__text">Travel Portal </p>
+        </div>
+        <!-- /.header__logo -->
+     
 
-        <div class="container navbar">
-            <div class="header__menu">
-                <div class="header__logo">
-                    <img src="assets/images/logo.svg" alt="logo" class="menu_logo" />
-                    <p class="logo__text">Travel Portal </p>
-                </div>
-                <!-- /.header__logo -->
-             
+      <div class="menu__nav">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li><a class="navigation__item" href="#skills">How It Works</a></li>
+            <li>
+              <a class="navigation__item" href="#portfolio">Plan Your Trip</a>
+            </li>
+            <li><a class="navigation__item" href="#video">Destinations</a></li>
+            <li><a class="navigation__item" href="#price">Travel Stories</a></li>
+            
+          </ul>
+        </nav>
+
+       
+          
+          <button class="button header__button">Login</button>
+        
+       
+      </div>
+      <!-- /.menu__nav -->
+    </div>
+    <!-- /.header__menu -->
+
+    <!-- /.container -->
+  </div>
+</div>
+<!-- /.background_color -->
       
-              <div class="menu__nav">
-                <nav class="navigation">
-                  <ul class="navigation__list">
-                    <li><a class="navigation__item" href="#skills">How It Works</a></li>
-                    <li>
-                      <a class="navigation__item" href="#portfolio">Plan Your Trip</a>
-                    </li>
-                    <li><a class="navigation__item" href="#video">Destinations</a></li>
-                    <li><a class="navigation__item" href="#price">Travel Stories</a></li>
-                    
-                  </ul>
-                </nav>
-      
-               
-                  
-                  <button class="button header__button">Login</button>
-                
-               
-              </div>
-              <!-- /.menu__nav -->
-            </div>
-            <!-- /.header__menu -->
-      
-            <!-- /.container -->
-          </div>
 
     </header>
 
     <main>
 <section class="preview">
-<h1>Explore the beauty of the World</h1>
-<button>Start Planning</button>
+  <div class="container">
+    <div class="preview__block">
+      <h1 class="preview__title">Explore the beauty of the World</h1>
+      <p class="preview__subtitle ">Receive personalized recommendations for countries, hotels, activities and more</p>
+      <form class="preview__form"> 
+        <input type="text" name="text" class="search" placeholder="What would you like to do?">
+       <button class="button preview__button">Start Planning</button>
+      </form>
+    </div>
+    <!-- /.preview__block -->
+    
+  </div>
+  <!-- /.container -->
+
 </section>
 <section class="steps">
     <h2> 3 STEPS TO THE PERFECT TRIP</h2>
