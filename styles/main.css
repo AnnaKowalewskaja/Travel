@@ -1,6 +1,10 @@
+.preview{
+    padding-bottom: 254px;
+}
+
 .preview__block{
     width: 892px;
-    height: 422px;
+    height: 389px;
     padding-top: 32px;
 }
 
@@ -17,9 +21,10 @@
 .preview__subtitle{
     font-family: var(--title-font_italic);
     font-weight: bold;
+    margin-bottom: 37px;
 }
 
-.preview__button{
+.form__button{
     width: 228px;
     height: 59px;
   display: flex;
@@ -27,11 +32,29 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 font-size: 2.4rem;
+margin-right: 18px;
 }
 
 .preview__form{
     display: flex;
+    align-items: center;
     width: 100%;
     background: rgba(255, 255, 255, 0.7);
 border-radius: 16px;
+height: 95px;
+
+}
+
+.form__input::placeholder{
+    color:rgba(242, 120, 92, 1);
+    font-family: var(--title-font_italic_normal);
+    font-size: 2.4rem;
+}
+
+.form__input{
+    margin-left: 41px;
+    border:none;
+    width: 68%;
+    background: none;
+    padding: 0;
 }

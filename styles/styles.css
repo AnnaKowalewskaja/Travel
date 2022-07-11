@@ -31,12 +31,18 @@
 }
 
 @font-face {
-  font-family: "AleoItalic";
+  font-family: "AleoItalicBold";
   src: url("../fonts/Aleo/Aleo-BoldItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "AleoItalicNormal";
+  src: url("../fonts/Aleo/Aleo-LightItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
 
 
 
@@ -49,7 +55,8 @@
     --main-font: "RedHatTextMedium";
     --main-font_bold: "RedHatTextBold";
     --title-font: "Aleo";
-    --title-font_italic:"AleoItalic";
+    --title-font_italic:"AleoItalicBold";
+    --title-font_italic_normal:"AleoItalicNormal";
     --main-animation: all 0.3s ease-in;
     --additional-font:"Magra";
 }
